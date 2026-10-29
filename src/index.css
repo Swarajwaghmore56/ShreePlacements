@@ -1,0 +1,41 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+  padding-top: 70px;
+}
+
+.page-content {
+  padding: 40px;
+}
+
+.page-content h1 {
+  color: #102a43;
+  font-weight: 700;
+}
+
+.page-content p {
+  color: #526579;
+}
+
+@media (max-width: 576px) {
+  .page-content {
+    padding: 22px;
+  }
+}
