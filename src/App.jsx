@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./Components/Sidebar";
 import Home from "./Components/Home";
 import Jobs from "./Components/Jobs";
 import About from "./Components/About";
